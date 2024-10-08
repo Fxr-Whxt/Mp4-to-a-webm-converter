@@ -1,6 +1,7 @@
 from moviepy.editor import VideoFileClip
 import os
 
-videoClip = VideoFileClip(str(input("video:")))
-
-videoClip.write_gif("gifile.gif")
+def convertator(input_file, output_format):
+    if output_format not in ['webm', 'mp4', 'gif']:
+        pass
+    
