@@ -19,3 +19,11 @@ def convertator(input_file, output_format):
 
     print(f"Your video has succsesful convertation to chosen format: {output_format}, and saved as : {output_file}")
     return output_file # return converted file to you
+
+
+if __name__ == "__main__":
+    input_file = "input_video.mp4"  # your file to change
+    output_format = "gif"  # write here your format to convert(mp4, webm или gif)
+    
+    # running the code
+    convertator(input_file, output_format)
